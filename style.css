@@ -8,9 +8,75 @@ body {
 }
 #header {
   width: 960px;
-  height: 200px;
-  border: 2px solid blue;
+  height: 150px;
+  /*border: 2px solid blue;*/
   margin: 0 auto;
+}
+#logo {
+  display: inline-block;
+  width: 5%;
+  height: 50px;
+  padding-left: 5px;
+  /*border: 2px solid red;*/
+
+}
+#logo-img{
+  margin-top: -15px;
+  float: left;
+  width:auto;
+  height: auto;
+  /*border: 1px solid blue;*/
+}
+#log-txt{
+  display: inline-block;
+  width: 30%;
+  height: 100px;
+  /*border: 1px solid yellow;*/
+}
+#log-txt span {
+  /*border: 1px solid blue;*/
+  font-family: 'the woodlands';
+  font-size: 60px;
+  padding: 0px;
+
+}
+#log-txt p {
+  margin-top: 0px;
+  /*border: 1px solid blue;*/
+  font-family: 'courier new';
+  font-size: 12px;
+  padding-left: 0px;
+  color: #767476;
+}
+#social-media{
+  margin-top: 50px;
+  display: inline;
+  float: right;
+  width:50%;
+  height: auto;
+  /*border: 2px solid blue;*/
+}
+#social-media-icons{
+  margin-left: 2px;
+  display: inline;
+  float: right;
+  width: auto;
+  height: auto;
+  /*border: 2px solid blue;*/
+}
+#social-media-icons-2{
+  margin-left: 10px;
+  display: inline;
+  float: right;
+  width: auto;
+  height: auto;
+  /*border: 2px solid blue;*/
+}
+#bg-img{
+  background-image: url("img/bg-img.png");
+  height: 13px;
+  width: 100%;
+  /*border: 1px solid blue;*/
 }
 #body-container {
   width: 960px;
