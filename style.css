@@ -3,6 +3,11 @@
   height: 100%;
   box-sizing: border-box;
 }
+
+.clearfix {
+  clear: both;
+}
+
 body {
   background-color: #fff;
 }
@@ -86,7 +91,70 @@ body {
 }
 #footer {
   width: 960px;
-  height: 200px;
+  height: auto;
   border: 2px solid red;
   margin: 0 auto;
+}
+
+#small-logo {
+  height: auto;
+  width: auto;
+  display: inline-block;
+  margin: 0 auto;
+  margin-top: 2px;
+}
+
+#vanessa {
+  height: auto;
+  width: auto;
+  display: inline-block;
+  float: left;
+}
+
+#head span {
+  border: 1px solid;
+  height: auto;
+  width: auto;
+  display: inline-block;
+}
+
+#share-recipe {
+  padding: 4px;
+  background-color: #BC7058;
+  color: white;
+  text-align: center;
+  width: 85px;
+  height: 25px;
+  float: right;
+}
+
+#footer div p {
+  height:auto;
+  width:auto;
+  display: block;
+  text-align: center;
+  color: #CCB7B0;
+}
+
+#about-me {
+  text-align: left;
+  color: black;
+  border: solid black 1px;
+  width: 75%;
+}
+
+#van-wrapper {
+  display: inline-block;
+}
+
+#van-wrapper #van-name {
+  color: #664E4A;
+}
+
+hr {
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+  width: 47.9569%;
+
 }
